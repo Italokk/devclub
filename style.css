@@ -1,0 +1,126 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.link-header {
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: none;
+    color: #17233D;
+    cursor: pointer;
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.button-header {
+    background: #6FBF44;
+    border-color: #4CB538;
+    border-radius: 10px;
+    width: 124px;
+    height: 51px;
+    margin-left: 42px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+
+}
+
+section {
+    width: 550px;
+    /* height: 400px; */
+    margin-top: 100px;
+    margin-left: 80px;
+    display: inline-block;
+   
+}
+
+.text-coverage{
+
+    width: 493px;
+    display: inline-block;
+    padding-top: 250px;
+    margin-left: 85px;
+    
+}
+h1{
+    color: #161A49;
+    width: 582px;
+    height: 164px;
+    font-size: 62px;
+    font-weight: 700;
+    margin-bottom: 80px;
+
+
+}
+
+p{
+   color: #4B505A;
+   width: 493px;
+   height: 99px;
+   font-size: 18px;
+   line-height: 33px;
+   margin-bottom: 50px;
+
+}
+
+.link-more {
+    color:#6FBF44;
+    cursor: pointer;
+
+}
+
+.fire {
+    background-image: url(https://media1.tenor.com/m/8fpqBIFXC0IAAAAC/fire-flames.gif);
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+@media screen and (max-width: 860px){
+
+    img{
+        width: 250px;
+        margin-left: 12px;
+    }
+    .button-header{
+        margin-left: 35%;
+    }
+
+    header{
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+
+   h1{
+
+     width: 320px;
+     height: auto;
+     position: relative;
+     bottom: 200px;
+     left: -20px;
+ }
+
+   p{
+    position: relative;
+    top: -250px;
+    right: 61px;
+    width: 370px;
+
+   }
+   .link-more{
+
+    position: relative;
+    top: -250px;
+    left: -60px;
+   }
+
+    }
+
